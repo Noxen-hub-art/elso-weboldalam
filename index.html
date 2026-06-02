@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html>
-<body>
-
-<h1>Helló világ! 🎉</h1>
-
-<p>Ez az első saját weboldalam.</p>
-
-<button onclick="alert('Működik! 🚀')">
-Kattints ide
-</button>
-
-</body>
-</html>
+<head>
+  <meta charset="UTF-8">
+    <title>Az én weboldalam</title>
+      <style>
+          body {
+                background: linear-gradient(135deg, #f5a7e8, #a7c5f5);
+                      font-family: 'Comic Sans MS', cursive;
+                            text-align: center;
+                                  padding: 40px;
+                                      }
+                                          h1 {
+                                                font-size: 3em;
+                                                      color: #fff;
+                                                            text-shadow: 3px 3px #ff69b4;
+                                                                  animation: bounce 1s infinite alternate;
+                                                                      }
+                                                                          @keyframes bounce {
+                                                                                from { transform: translateY(0); }
+                                                                                      to { transform: translateY(-15px); }
+                                                                                          }
+                                                                                              p { font-size: 1.3em; color: #444; }
+                                                                                                  button {
+                                                                                                        background: #ff69b4;
+                                                                                                              color: white;
+                                                                                                                    border: none;
+                                                                                                                          padding: 15px 30px;
+                                                                                                                                font-size: 1.2em;
+                                                                                                                                      border-radius: 50px;
+                                                                                                                                            cursor: pointer;
+                                                                                                                                                  margin: 10px;
+                                                                                                                                                      }
+                                                                                                                                                        </style>
+                                                                                                                                                        </head>
+                                                                                                                                                        <body>
+                                                                                                                                                          <h1>Helló világ! 🎉</h1>
+                                                                                                                                                            <p>Ez az első saját weboldalam.</p>
+                                                                                                                                                              <button onclick="alert('Működik! 🚀')">Kattints ide</button>
+                                                                                                                                                                <button onclick="document.body.style.background='linear-gradient(135deg, #f5e642, #42f5a7)'">🎨 Szín csere!</button>
+                                                                                                                                                                </body>
+                                                                                                                                                                </html>
