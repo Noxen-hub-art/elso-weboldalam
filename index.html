@@ -2,41 +2,66 @@
 <html>
 <head>
   <meta charset="UTF-8">
-    <title>Az én weboldalam</title>
+    <title>Noxen oldala</title>
       <style>
           body {
                 background: linear-gradient(135deg, #f5a7e8, #a7c5f5);
                       font-family: 'Comic Sans MS', cursive;
                             text-align: center;
                                   padding: 40px;
-                                      }
-                                          h1 {
-                                                font-size: 3em;
-                                                      color: #fff;
-                                                            text-shadow: 3px 3px #ff69b4;
-                                                                  animation: bounce 1s infinite alternate;
-                                                                      }
-                                                                          @keyframes bounce {
-                                                                                from { transform: translateY(0); }
-                                                                                      to { transform: translateY(-15px); }
-                                                                                          }
-                                                                                              p { font-size: 1.3em; color: #444; }
-                                                                                                  button {
-                                                                                                        background: #ff69b4;
-                                                                                                              color: white;
-                                                                                                                    border: none;
-                                                                                                                          padding: 15px 30px;
-                                                                                                                                font-size: 1.2em;
-                                                                                                                                      border-radius: 50px;
-                                                                                                                                            cursor: pointer;
-                                                                                                                                                  margin: 10px;
-                                                                                                                                                      }
-                                                                                                                                                        </style>
-                                                                                                                                                        </head>
-                                                                                                                                                        <body>
-                                                                                                                                                          <h1>Helló világ! 🎉</h1>
-                                                                                                                                                            <p>Ez az első saját weboldalam.</p>
-                                                                                                                                                              <button onclick="alert('Működik! 🚀')">Kattints ide</button>
-                                                                                                                                                                <button onclick="document.body.style.background='linear-gradient(135deg, #f5e642, #42f5a7)'">🎨 Szín csere!</button>
-                                                                                                                                                                </body>
-                                                                                                                                                                </html>
+                                        margin: 0;
+                                            }
+                                                h1 {
+                                                      font-size: 3em;
+                                                            color: #fff;
+                                                                  text-shadow: 3px 3px #ff69b4;
+                                                                        animation: bounce 1s infinite alternate;
+                                                                            }
+                                                                                @keyframes bounce {
+                                                                                      from { transform: translateY(0); }
+                                                                                            to { transform: translateY(-15px); }
+                                                                                                }
+                                                                                                    .card {
+                                                                                                          background: white;
+                                                                                                                border-radius: 20px;
+                                                                                                                      padding: 30px;
+                                                                                                                            max-width: 400px;
+                                                                                                                                  margin: 30px auto;
+                                                                                                                                        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+                                                                                                                                            }
+                                                                                                                                                .avatar {
+                                                                                                                                                      font-size: 5em;
+                                                                                                                                                          }
+                                                                                                                                                              .nickname {
+                                                                                                                                                                    font-size: 2em;
+                                                                                                                                                                          color: #ff69b4;
+                                                                                                                                                                                font-weight: bold;
+                                                                                                                                                                                    }
+                                                                                                                                                                                        .bio {
+                                                                                                                                                                                              color: #666;
+                                                                                                                                                                                                    font-size: 1em;
+                                                                                                                                                                                                          margin-top: 10px;
+                                                                                                                                                                                                              }
+                                                                                                                                                                                                                  button {
+                                                                                                                                                                                                                        background: #ff69b4;
+                                                                                                                                                                                                                              color: white;
+                                                                                                                                                                                                                                    border: none;
+                                                                                                                                                                                                                                          padding: 12px 25px;
+                                                                                                                                                                                                                                                font-size: 1em;
+                                                                                                                                                                                                                                                      border-radius: 50px;
+                                                                                                                                                                                                                                                            cursor: pointer;
+                                                                                                                                                                                                                                                                  margin: 10px;
+                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                        </style>
+                                                                                                                                                                                                                                                                        </head>
+                                                                                                                                                                                                                                                                        <body>
+                                                                                                                                                                                                                                                                          <h1>Helló! 👋</h1>
+                                                                                                                                                                                                                                                                            <div class="card">
+                                                                                                                                                                                                                                                                                <div class="avatar">🎭</div>
+                                                                                                                                                                                                                                                                                    <div class="nickname">Noxen</div>
+                                                                                                                                                                                                                                                                                        <div class="bio">Kezdő webfejlesztő. Telefonról hódítom meg az internetet. 🚀</div>
+                                                                                                                                                                                                                                                                                          </div>
+                                                                                                                                                                                                                                                                                            <button onclick="alert('Szia! 👋')">Írj nekem!</button>
+                                                                                                                                                                                                                                                                                              <button onclick="document.body.style.background='linear-gradient(135deg, #f5e642, #42f5a7)'">🎨 Szín csere!</button>
+                                                                                                                                                                                                                                                                                              </body>
+                                                                                                                                                                                                                                                                                              </html>
